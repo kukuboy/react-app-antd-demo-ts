@@ -1,5 +1,5 @@
 import React, { FC } from 'react';
-import logo from './logo.svg';
+import logo from './common/svg/logo.svg';
 import './App.less';
 import { Button } from 'antd';
 
