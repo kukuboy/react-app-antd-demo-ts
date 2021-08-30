@@ -1,10 +1,12 @@
-import React from 'react';
+import React, { FC } from 'react';
 import logo from './logo.svg';
-import './App.css';
+import './App.less';
+import { Button } from 'antd';
 
-function App() {
+const App: FC = () => {
   return (
     <div className="App">
+      <Button type="primary">Button</Button>
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
